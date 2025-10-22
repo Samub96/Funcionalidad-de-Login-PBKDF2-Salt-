@@ -1,0 +1,29 @@
+# file docker-compose.yml
+
+version: '3.8'
+
+services:
+
+  db:
+    platform: linux/x86_64
+    image: mysql:5.7
+    command: ["--max_connections=1000"]
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'DB'
+      MYSQL_USER: 'dbTest'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - '3306:3306'
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  mysql_data:
+
