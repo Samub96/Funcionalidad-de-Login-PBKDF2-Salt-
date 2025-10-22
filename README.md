@@ -129,23 +129,23 @@ sudo docker compose up -d
 ## visibilidad del trabajo 
 ### inicializacion por primera vez
 
-![primera vez]()
+![primera vez](/pics/inicialice.png)
 
 ### creacion de usuario admin
-![usuario admin]()
+![usuario admin](/pics/login.png)
 
 ### visibilidad en la DB
-![dbvisilbe]()
+![dbvisilbe](/pics/sqltabla.png)
 Como podemos observar por temas academicos se creó esta tabla separando explicitamente el salt, el hash y las iteraciones con el fin de mostar que si funcionó
 
 ### Login admin
-![login]()
+![login](/pics/login.png)
 
 en este caso no quisimos censurar la conatraseña por motivos academicos y para desmotrar que efectivamente usando la contraseña creada se puede hacer login
 
 ## Login fallido
 
-![fail]()
+![fail](/pics/fail.png)
 
 aqui queremos mostrar que si intentamos loggear con otra contraseña, directamente el programa lanza error y se acaba la ejecucion 
 
