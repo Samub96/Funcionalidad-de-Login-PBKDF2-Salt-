@@ -138,6 +138,23 @@ sudo docker compose up -d
    java -jar target/login-app-1.0.0.jar
   ````
     
+# Posible troubleshooting con el jdk de java
+
+````bash
+  # verificacion de la version de java en el sistema
+  java -version
+  ````
+  ````bash
+  #Instalacion del jdk ( puede ser 19 o una version mayor)
+  sudo apt update
+sudo apt install openjdk-19-jdk -y
+
+  ````
+````bash
+# Configuracion de version jdk activa 
+  sudo update-alternatives --config java
+````
+
 ## visibilidad del trabajo 
 ### inicializacion por primera vez
 
