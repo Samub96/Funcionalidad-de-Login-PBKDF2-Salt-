@@ -1,3 +1,5 @@
+package com.samu.login;
+
 import java.sql.*;
 import java.time.LocalDateTime;
 

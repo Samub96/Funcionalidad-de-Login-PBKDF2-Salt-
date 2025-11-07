@@ -1,0 +1,5 @@
+com/samu/login/UserService.class
+com/samu/login/DatabaseManager.class
+com/samu/login/Main.class
+com/samu/login/PasswordUtils.class
+com/samu/login/User.class

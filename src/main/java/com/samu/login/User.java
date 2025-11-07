@@ -1,3 +1,5 @@
+package com.samu.login;
+
 import java.time.LocalDateTime;
 
 public class User {

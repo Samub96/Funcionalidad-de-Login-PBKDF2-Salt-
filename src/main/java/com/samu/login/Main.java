@@ -1,3 +1,9 @@
+package com.samu.login;
+
+import com.samu.login.DatabaseManager;
+import com.samu.login.User;
+import com.samu.login.UserService;
+
 import java.util.Scanner;
 
 public class Main {
