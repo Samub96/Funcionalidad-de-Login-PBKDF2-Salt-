@@ -11,7 +11,7 @@
 
     <properties>
         <!-- Ajusta la versión de Java si lo deseas -->
-        <java.version>19</java.version>
+        <java.version>21</java.version>
         <maven.compiler.plugin.version>3.11.0</maven.compiler.plugin.version>
         <maven.shade.plugin.version>3.4.1</maven.shade.plugin.version>
     </properties>
