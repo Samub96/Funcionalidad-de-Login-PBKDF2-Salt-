@@ -125,7 +125,19 @@ El resultado es un hash largo y seguro que se puede almacenar en la base de dato
 sudo docker compose up -d
   ```
 2. compilar
-   En este caso fue compilado y ejecutado con Intellij IDE usando el jdk ```openjdk-19```
+  
+ Se crea el ```.jar``` con maven en la carpeta ````target```` 
+
+  ````bash
+  mvn -q clean package
+  ````
+
+  una vez ya creado y/o modificado la carpeta ````target```` se ejecuta este comando para asi iniciar el programa
+
+   ````bash
+   java -jar target/login-app-1.0.0.jar
+  ````
+    
 ## visibilidad del trabajo 
 ### inicializacion por primera vez
 
